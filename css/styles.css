@@ -1,0 +1,215 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: "Font Awesome 5 Free"; */
+    text-align: center
+}
+
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+
+.container-fluid
+{   
+    /* top down - 3% and left right - 15%     */
+    padding: 7% 15%;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p
+{
+    color: #8f8f8f
+}
+
+/* headings */
+
+.big-headings
+{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.7rem;
+    font-weight: bold;
+}
+
+.section-heading
+{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+/* navbar */
+
+.nav-item
+{
+    font-weight: bold;
+}
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item
+{
+    /* up down : 0, left right : 18px; */
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+/* download buttons */
+.download-button
+{
+    margin : 5% 3% 5% 0;
+    font-weight: bold;
+}
+
+.title-image
+{
+    width: 60%;
+    transform: rotate(23deg);
+    /* z-index: -1; */
+    position: absolute;
+    right: 30%;
+}
+
+@media(max-width:1028px)
+{
+    .title-image
+    {
+        position:static;
+        transform: rotate(0);
+    }
+
+    #title
+    {
+        text-align: center;
+    }
+
+    
+}
+
+#features
+{
+    
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+
+.feature-title
+{
+    font-size: 1.5rem;
+}
+
+.feature-box
+{
+    
+    font-family: 'Montserrat', sans-serif;
+
+    padding: 5%;
+}
+
+.icon
+{
+    color: #e3770b
+    margin-bottom: 2rem;
+}
+
+.icon:hover
+{
+    color: #ff4c68;
+}
+
+
+/* testimonials sections */
+
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+#testimonials
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.testimonial-image
+{
+    width: 10%;
+    /* for circular image */
+    border-radius: 100%; 
+    margin: 20px;
+
+}
+
+#press
+{
+    background-color: #ff4c68;
+    
+    padding-bottom: 3%;
+}
+
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+.price-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#pricing
+{
+    padding: 100px;
+    text-align:center;
+}
+
+.pricing_col
+{
+    padding: 40px;
+}
+
+/* cta */
+#cta
+{
+    background-color: #ff4c68;
+    color: #fff;
+    
+    
+}
+
+.social_icon
+{
+    margin: 20px 10px; 
+    /* TB - 20px LR - 10px */
+}
